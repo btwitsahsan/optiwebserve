@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Laralink">
     <!-- Favicon Icon -->
-    <link rel="icon" href="{{url('frontend/img/favicon.png')}}">
+    <link rel="icon" href="{{asset('public/frontend/img/favicon.png')}}">
     <!-- Site Title -->
     <title>Opti-web-serve</title>
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/fontawesome.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/slick.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/lightgallery.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/animate.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('public/frontend/css/plugins/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('public/frontend/css/plugins/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('public/frontend/css/plugins/lightgallery.min.css')}}">
+    <link rel="stylesheet" href="{{asset('public/frontend/css/plugins/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('public/frontend/css/plugins/slick.css')}}">
   </head>
   <body>
     <div class="cs-preloader cs-center">
