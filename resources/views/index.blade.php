@@ -2,6 +2,7 @@
 
     @section('main-container')
 
+    <link rel="stylesheet" href="{{url('frontend/css/style.css')}}">
     <!-- Start Hero -->
     <div class="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1" data-src="{{url('frontend/sh-images/home-background.gif')}}" id="home">
       <div class="cs-shape_1"></div>
