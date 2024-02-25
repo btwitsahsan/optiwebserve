@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{url('frontend/css/plugins/fontawesome.min.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/plugins/lightgallery.min.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/plugins/animate.css')}}">
-    <link rel="stylesheet" href="{{url('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{url('frontend/css/style.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/plugins/slick.css')}}">
   </head>
   <body>
