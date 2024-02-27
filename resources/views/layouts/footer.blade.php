@@ -108,13 +108,13 @@
     </div>
     <!-- End Video Popup -->
     <!-- Script -->
-    <script src="{{url('frontend/js/plugins/jquery-3.6.0.min.js')}}"></script>
-    <script src="{{url('frontend/js/plugins/lightgallery.min.js')}}"></script>
-    <script src="{{url('frontend/js/plugins/isotope.pkg.min.js')}}"></script>
-    <script src="{{url('frontend/js/plugins/jquery.slick.min.js')}}"></script>
-    <script src="{{url('frontend/js/plugins/jquery.counter.min.js')}}"></script>
-    <script src="{{url('frontend/js/plugins/wow.min.js')}}"></script>
-    <script src="{{url('frontend/js/plugins/gsap.min.js')}}"></script>
-    <script src="{{url('frontend/js/main.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/lightgallery.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/isotope.pkg.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/jquery.slick.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/jquery.counter.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/wow.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/plugins/gsap.min.js')}}"></script>
+    <script src="{{secure_asset('frontend/js/main.js')}}"></script>
   </body>
 </html>
