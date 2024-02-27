@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Laralink">
     <!-- Favicon Icon -->
-    <link rel="icon" href="{{url('frontend/img/favicon.png')}}">
+    <link rel="icon" href="{{asset('frontend/img/favicon.png')}}">
     <!-- Site Title -->
     <title>Opti-web-serve</title>
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/fontawesome.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/lightgallery.min.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/animate.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/style.css')}}">
-    <link rel="stylesheet" href="{{url('frontend/css/plugins/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/plugins/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/plugins/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/plugins/lightgallery.min.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/plugins/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/plugins/slick.css')}}">
 
 </head>
   <body>
@@ -30,7 +30,7 @@
             <div class="cs-main_header_left">
               <a class="cs-site_branding" style="border: 1px solid #2da8a8; color:#2da8a8; font-weight: bold; font-size: 20px" href="index.html">
               Opti-Web-Serve
-                <!-- <img src="{{url('frontend/imgs/logo.png')}}" alt="Logo"> -->
+                <!-- <img src="{{('frontend/imgs/logo.png')}}" alt="Logo"> -->
               </a>
             </div>
             <div class="cs-main_header_center">
