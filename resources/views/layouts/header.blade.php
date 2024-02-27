@@ -10,12 +10,12 @@
     <link rel="icon" href="{{asset('frontend/img/favicon.png')}}">
     <!-- Site Title -->
     <title>Opti-web-serve</title>
-    <link rel="stylesheet" href="{{asset('frontend/css/plugins/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/plugins/fontawesome.min.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/plugins/lightgallery.min.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/plugins/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/plugins/slick.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('frontend/css/plugins/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('frontend/css/plugins/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('frontend/css/plugins/lightgallery.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('frontend/css/plugins/animate.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('frontend/css/plugins/slick.css')}}">
 
 </head>
   <body>
