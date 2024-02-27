@@ -2,9 +2,9 @@
 
     @section('main-container')
 
-    <link rel="stylesheet" href="{{url('frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
     <!-- Start Hero -->
-    <div class="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1" data-src="{{url('frontend/sh-images/home-background.gif')}}" id="home">
+    <div class="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1" data-src="{{asset('frontend/sh-images/home-background.gif')}}" id="home">
       <div class="cs-shape_1"></div>
       <div class="cs-shape_1"></div>
       <div class="cs-shape_1"></div>
@@ -47,7 +47,7 @@
     <section>
       <div class="container">
         <div class="cs-funfact_wrap cs-type1">
-          <div class="cs-funfact_shape" data-src="{{url('frontend/img/funfact_shape_bg.svg')}}"></div>
+          <div class="cs-funfact_shape" data-src="{{asset('frontend/img/funfact_shape_bg.svg')}}"></div>
           <div class="cs-funfact_left">
             <div class="cs-funfact_heading">
               <h2>Our fun fact</h2>
@@ -123,7 +123,7 @@
               <div class="col-lg-3 col-sm-6">
                 <div class="cs-hobble hidden">
                   <a href="service-details.html" class="cs-card cs-style1 cs-hover_layer1" >
-                    <img src="{{url('frontend/img/service_1.jpeg')}}" alt="Service" id="rotatewhilescrolling">
+                    <img src="{{asset('frontend/img/service_1.jpeg')}}" alt="Service" id="rotatewhilescrolling">
                     <div class="cs-card_overlay"></div>
                     <div class="cs-card_info">
                       <span class="cs-hover_layer3 cs-accent_bg"></span>
@@ -137,7 +137,7 @@
               <div class="col-lg-3 col-sm-6">
                 <div class="cs-hobble hidden">
                   <a href="service-details.html" class="cs-card cs-style1 cs-hover_layer1">
-                    <img src="{{url('frontend/img/service_2.jpeg')}}" alt="Service" id="rotatewhilescrolling1">
+                    <img src="{{asset('frontend/img/service_2.jpeg')}}" alt="Service" id="rotatewhilescrolling1">
                     <div class="cs-card_overlay"></div>
                     <div class="cs-card_info">
                       <span class="cs-hover_layer3 cs-accent_bg"></span>
@@ -150,7 +150,7 @@
               <div class="col-lg-3 col-sm-6 ">
                 <div class="cs-hobble hiddenn">
                   <a href="service-details.html" class="cs-card cs-style1 cs-hover_layer1">
-                    <img src="{{url('frontend/img/service_3.jpeg')}}" alt="Service" id="rotatewhilescrolling2">
+                    <img src="{{asset('frontend/img/service_3.jpeg')}}" alt="Service" id="rotatewhilescrolling2">
                     <div class="cs-card_overlay"></div>
                     <div class="cs-card_info">
                       <span class="cs-hover_layer3 cs-accent_bg"></span>
@@ -165,7 +165,7 @@
               <div class="col-lg-3 col-sm-6">
                 <div class="cs-hobble hiddenn">
                   <a href="service-details.html" class="cs-card cs-style1 cs-hover_layer1">
-                    <img src="{{url('frontend/img/service_4.jpeg')}}" alt="Service" id="rotatewhilescrolling3">
+                    <img src="{{asset('frontend/img/service_4.jpeg')}}" alt="Service" id="rotatewhilescrolling3">
                     <div class="cs-card_overlay"></div>
                     <div class="cs-card_info">
                       <span class="cs-hover_layer3 cs-accent_bg"></span>
@@ -299,7 +299,7 @@
     <div class="cs-height_70 cs-height_lg_70"></div>
     <!-- Start Video Block -->
     <div class="container">
-      <a href="https://www.youtube.com/watch?v=H94MlZWlnJQ" class="cs-video_block cs-style1 cs-video_open cs-bg" data-src="{{url('frontend/img/video_bg.jpeg')}}">
+      <a href="https://www.youtube.com/watch?v=H94MlZWlnJQ" class="cs-video_block cs-style1 cs-video_open cs-bg" data-src="{{asset('frontend/img/video_bg.jpeg')}}">
         <span class="cs-player_btn cs-accent_color">
           <span></span>
         </span>
@@ -352,7 +352,7 @@
                 <div class="slider-nav_item">
                   <div class="cs-rotate_img">
                     <div class="cs-rotate_img_in">
-                      <img src="{{url('frontend/sh-images/CEO.jpg')}}" alt="Nav Image">
+                      <img src="{{asset('frontend/sh-images/CEO.jpg')}}" alt="Nav Image">
                     </div>
                   </div>
                 </div>
@@ -371,8 +371,8 @@
                   </div>
                   <div class="cs-testimonial_text">My name is Sheharyar Sarwar. I am presently working as an SEO Outreach Specialist at AnimusWebs. I take projects from SEO agencies over the world in the field of Content Marketing and get Back-Links for my clients</div>
                   <div class="cs-rating" data-rating="4">
-                    <div class="cs-rating_bg" data-src="{{url('frontend/img/rating.svg')}}"></div>
-                    <div class="cs-rating_percentage" data-src="{{url('frontend/img/rating.svg')}}"></div>
+                    <div class="cs-rating_bg" data-src="{{asset('frontend/img/rating.svg')}}"></div>
+                    <div class="cs-rating_percentage" data-src="{{asset('frontend/img/rating.svg')}}"></div>
                   </div>
                   <h2 class="cs-testimonial_avatar_name">Sheharyar Sarwar</h2>
                   <div class="cs-testimonial_avatar_designation text-uppercase">CEO</div>
@@ -403,7 +403,7 @@
     <!-- Start CTA -->
     <section>
       <div class="container">
-        <div class="cs-cta cs-style1 cs-bg text-center cs-shape_wrap_1 cs-position_1" data-src="{{url('frontend/img/cta_bg.jpeg')}}">
+        <div class="cs-cta cs-style1 cs-bg text-center cs-shape_wrap_1 cs-position_1" data-src="{{asset('frontend/img/cta_bg.jpeg')}}">
           <div class="cs-shape_1"></div>
           <div class="cs-shape_1"></div>
           <div class="cs-shape_1"></div>

@@ -4,7 +4,7 @@
 @section('main-container')
 
   <!-- Start Hero -->
-  <div class="cs-page_heading cs-style1 cs-center text-center cs-bg" data-src="{{url('frontend/img/home-background.avif')}}">
+  <div class="cs-page_heading cs-style1 cs-center text-center cs-bg" data-src="{{asset('frontend/img/home-background.avif')}}">
     <div class="container">
       <div class="cs-page_heading_in">
         <h1 class="cs-page_title cs-font_50 cs-white_color">About Us</h1>
@@ -62,7 +62,7 @@
                   <div class="slider-nav_item">
                     <div class="cs-rotate_img">
                       <div class="cs-rotate_img_in">
-                        <img src="{{url('frontend/sh-images/CEO.jpg')}}" alt="Nav Image">
+                        <img src="{{asset('frontend/sh-images/CEO.jpg')}}" alt="Nav Image">
                       </div>
                     </div>
                   </div>
@@ -81,8 +81,8 @@
                     </div>
                     <div class="cs-testimonial_text">My name is Sheharyar Sarwar. I am presently working as an SEO Outreach Specialist at Opti-Web-Serve. I take projects from SEO agencies over the world in the field of Content Marketing and get Back-Links for my clients</div>
                     <div class="cs-rating" data-rating="4">
-                      <div class="cs-rating_bg" data-src="{{url('frontend/img/rating.svg')}}"></div>
-                      <div class="cs-rating_percentage" data-src="{{url('frontend/img/rating.svg')}}"></div>
+                      <div class="cs-rating_bg" data-src="{{asset('frontend/img/rating.svg')}}"></div>
+                      <div class="cs-rating_percentage" data-src="{{asset('frontend/img/rating.svg')}}"></div>
                     </div>
                     <h2 class="cs-testimonial_avatar_name">Sheharyar Sarwar</h2>
                     <div class="cs-testimonial_avatar_designation text-uppercase">CEO</div>
